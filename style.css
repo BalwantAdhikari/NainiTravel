@@ -1,0 +1,17 @@
+body {
+    font-size: 18px;
+    font-family: "Nunito", sans-serif;
+}
+
+.navbar {
+    background-color: #5CDB95;
+}
+
+a, a:hover{
+    color: #05386B;
+}
+
+.nav-link{
+    font-weight: 700;
+}
+
