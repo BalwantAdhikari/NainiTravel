@@ -35,3 +35,11 @@ a, a:hover{
 /* .top-bar a i {
     color: #05386B;
 } */
+
+.card-holder {
+    margin-top: 20px;
+}
+
+.card {
+    margin: 10px 0px;
+}
