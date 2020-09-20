@@ -1,7 +1,7 @@
 body {
     /* font-size: 18px; */
     font-family: "Roboto", sans-serif;
-    /* background-color: #5CDB95; */
+    background-color: #EBEBEB;
     margin-top: 46px;
 }
 
@@ -42,12 +42,26 @@ a, a:hover{
 
 .card {
     margin: 10px 0px;
+    border-color: #EBEBEB;
+    border-radius: 5px;
+
+    -webkit-box-shadow: 10px 10px 7px -2px rgba(97,97,97,0.23);
+    -moz-box-shadow: 10px 10px 7px -2px rgba(97,97,97,0.23);
+    box-shadow: 10px 10px 7px -2px rgba(97,97,97,0.23);
+}
+
+.card-img-top {
+    border-radius: 5px 5px 0 0;
 }
 
 .btn-primary {
     color: #fff;
     background-color: #5CDB95;
     border-color: #5CDB95;
+
+    -webkit-box-shadow: 5px 5px 7px -2px rgba(100,100,100,0.23);
+    -moz-box-shadow: 5px 5px 7px -2px rgba(100,100,100,0.23);
+    box-shadow: 5px 5px 7px -2px rgba(100,100,100,0.23);
 }
 
 .card-body a:hover {
@@ -58,4 +72,54 @@ a, a:hover{
 
 .card-title {
     font-weight: bold;
+}
+
+#footer {
+    background-color: #5CDB95;
+}
+
+.social a {
+    color: #000;
+}
+
+.social a i {
+    font-size: 20px;
+}
+
+.fa-facebook:hover {
+    color: #4867AA;
+}
+
+.fa-twitter:hover {
+    color: #2CAAE1;
+}
+
+.fa-instagram:hover {
+    color: #D43E97;
+}
+
+.fa-youtube:hover {
+    color: #FD0002;
+}
+
+footer .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.list-group-item {
+    background-color: #5CDB95;
+}
+
+.list-group-item-action{
+    color: #212531;
+    background-color: #5CDB95;
+}
+
+.list-group-item-action:hover {
+    background-color: #5CDB95;
+}
+
+.contact-footer a {
+    color: #212531;
 }

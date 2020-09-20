@@ -69,20 +69,20 @@
 
 
   <!-- carousel start -->
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
       </ol>
-      <div class="carousel-inner">
+      <div class="carousel-inner" data-interval="4000">
         <div class="carousel-item active">
             <img src="./images/nainital-1.jpg" class="d-block w-100" alt="Nainital1">
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item" data-interval="4000">
           <img src="./images/nainital-2.jpg" class="d-block w-100" alt="Nainital2">
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item" data-interval="4000">
           <img src="./images/nainital-3.jpg" class="d-block w-100" alt="Nainital3">
         </div>
       </div>
@@ -98,9 +98,10 @@
   <!-- carousel end -->
 
 
+  <!-- cards start -->
   <div class="container card-holder">
     <div class="row">
-      <div class="col-12 col-md-6 col-lg-4">
+      <div class="col-9 m-auto col-md-6 col-lg-4">
         <div class="card">
           <img src="./images/nainital.jpg" class="card-img-top" alt="...">
           <div class="card-body">
@@ -110,7 +111,7 @@
           </div>
         </div>
       </div>
-      <div class="col-12 col-md-6 col-lg-4">
+      <div class="col-9 m-auto col-md-6 col-lg-4">
         <div class="card">
           <img src="./images/jimCorbett.jpg" class="card-img-top" alt="...">
           <div class="card-body">
@@ -120,7 +121,7 @@
           </div>
         </div>
       </div>
-      <div class="col-12 col-md-6 col-lg-4">
+      <div class="col-9 m-auto col-md-6 col-lg-4">
         <div class="card">
           <img src="./images/Mussoorie.jpg" class="card-img-top" alt="...">
           <div class="card-body">
@@ -130,7 +131,7 @@
           </div>
         </div>
       </div>
-      <div class="col-12 col-md-6 col-lg-4">
+      <div class="col-9 m-auto col-md-6 col-lg-4">
         <div class="card">
           <img src="./images/mukhteshwar.jpg" class="card-img-top" alt="...">
           <div class="card-body">
@@ -140,7 +141,7 @@
           </div>
         </div>
       </div>
-      <div class="col-12 col-md-6 col-lg-4">
+      <div class="col-9 m-auto col-md-6 col-lg-4">
         <div class="card">
           <img src="./images/ranikhet.jpg" class="card-img-top" alt="...">
           <div class="card-body">
@@ -150,7 +151,7 @@
           </div>
         </div>
       </div>
-      <div class="col-12 col-md-6 col-lg-4">
+      <div class="col-9 m-auto col-md-6 col-lg-4">
         <div class="card">
           <img src="./images/nainital.jpg" class="card-img-top" alt="...">
           <div class="card-body">
@@ -162,6 +163,68 @@
       </div>
     </div>
   </div>
+  <!-- cards end -->
+
+  <!-- footer start -->
+  <footer class="container-fluid">
+    <div id="footer">
+      <div class="container row m-auto">
+        <div class="col-12 col-md-4 p-3">
+          <h4 class="text-center">Nanitravel</h4>
+          <div class="d-flex justify-content-around flex-wrap p-3">
+            <div class="social">
+              <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+            </div>
+            <div class="social">
+              <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+            </div>
+            <div class="social">
+              <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="social">
+              <a href="http://youtube.com/"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 p-3">
+          <h4 class="text-center">Services</h4>
+          <ul class="list-group list-group-flush text-center">
+            <a href="#" class="list-group-item list-group-item-action">Car Rental</a>
+            <a href="#" class="list-group-item list-group-item-action">Bike Rental</a>
+            <a href="#" class="list-group-item list-group-item-action">Packages</a>
+            <a href="#" class="list-group-item list-group-item-action">Camping</a>
+          </ul>
+        </div>
+        <div class="col-10 col-md-4 p-3 mx-auto contact-footer">
+          <h4 class="text-center">Contact</h4>
+          <p><i class="fas fa-map-marker-alt"></i> flat no. 2, xyz lane, cantt, bhowali , uttrakhand.</p>
+          <a href="tel:+919536190823"><i class="fas fa-phone" ></i> +919536190823</a>
+          <br/>
+          <a href="mailto:balwantadhikari123@gmail.com"><i class="far fa-envelope"></i> balwantadhikari123@gmail.com</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer end -->
+
+  <!-- GetButton.io widget -->
+<script type="text/javascript">
+  (function () {
+      var options = {
+          whatsapp: "+919536190823", // WhatsApp number
+          call: "+919536190823", // Call phone number
+          // call_to_action: "Contact us", // Call to action
+          button_color: "#5CDB95", // Color of button
+          position: "right", // Position may be 'right' or 'left'
+          order: "whatsapp,call", // Order of buttons
+      };
+      var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+      var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+      s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+      var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+  })();
+</script>
+<!-- /GetButton.io widget -->
 
 
   <script src="script.js"></script>
